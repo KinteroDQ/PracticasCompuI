@@ -12,10 +12,17 @@ Es una tarea para explorar la plataforma y la sintaxisde ella.
   https://www.youtube.com/watch?v=9iNfbAco7gw&list=RD9iNfbAco7gw&index=1
   
   ## Cosas sobre mi 
-  Tambien soy alguien auto proclamado boemio y un apasionado de la cutura geek, gastronomia, observar documentales -de ves en cuando, aprendes mucho solo observando-,
+  Tambien soy alguien auto proclamado Bohemio y un apasionado de la cutura geek, gastronomia, observar documentales -de ves en cuando, aprendes mucho solo observando-,
   ciencia ficcion y temas de interes actuales como los tokens, robotica y realidad aumentada. 
   Mis animales favoritos son los ajolotes, zorros, lobos, arañas y liebres. 
   
+  
+  ![imagen](https://user-images.githubusercontent.com/101306120/189506314-e7c36f0d-3af3-4edc-8718-caf90be63a62.png)
+  ![imagen](https://user-images.githubusercontent.com/101306120/189506370-c5326b1d-b7ba-476d-8618-7aff8beddebd.png)
+  ![imagen](https://user-images.githubusercontent.com/101306120/189506421-c5ed794e-4c14-4ed5-a093-17739fdf9b1a.png)
+  ![imagen](https://user-images.githubusercontent.com/101306120/189506482-5d161f7b-b43b-4bc0-80d9-1d66f53fd57f.png)
+
+
   ## Temas que me gustaria profundisar en la licenciatura. 
   
   #### Inteligencia atificial y Neurociencias
