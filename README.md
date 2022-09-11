@@ -1,5 +1,5 @@
 # Precentacion-
-Es una tarea para explorar la plataforma y la sintaxisde ella. 
+Es una tarea para explorar la plataforma y la sintaxisde de ella. 
 
   ## Daniel Q.J
   soy alguien espontaneo, creativo y muy reflaxivo. Dos de mis cansiones preferiadas es:
