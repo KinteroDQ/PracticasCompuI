@@ -2,7 +2,7 @@
 Es una tarea para explorar la plataforma y la sintaxisde ella. 
 
   ## Daniel Q.J
-  soy alguien espontaneo, creativo y muy reflaxivo. Una de mis cansiones preferiadas es:
+  soy alguien espontaneo, creativo y muy reflaxivo. Dos de mis cansiones preferiadas es:
     
   ### Yo Más Te Adoro - Morat 
   #### Sábado vino y se fue domingo, se hizo muy tarde ¿y ves?, ya es lunes, otra vez jamás dejarás de esquivarme
@@ -11,6 +11,22 @@ Es una tarea para explorar la plataforma y la sintaxisde ella.
   
    
   https://www.youtube.com/watch?v=dQw4w9WgXcQ o este otro link por si falla el primero  https://www.youtube.com/watch?v=9iNfbAco7gw&list=RD9iNfbAco7gw&index=1
+  
+  
+  ###  Perdona Si Te Llamo Amor - Maldita Nerea
+  
+  #### Tú dirás lo que tú quieras, pero ya me necesitas, tenlo claro. Aunque tú me digas no, yo seré sí, mis besos serán disparos. Pararé cuando me creas, tú no sabes cómo y cuánto te he esperado,
+A partir de ahora yo haré que tú me quieras aquí a tu lado.
+Ay, ay, ay,
+Ya está, se va encendiendo solo
+Es como un huracán dentro de ti que va encendiando todo.
+Ay, ay, ay,
+Ya está, te llega en un segundo se queda en mi,
+En ti, aquí y ahora, y que se acabe el mundo.
+  
+  
+  
+  https://www.youtube.com/watch?v=Oh1Ftb8s88k
   
   ## Cosas sobre mi 
   Tambien soy alguien auto proclamado Bohemio y un apasionado de la cutura geek, gastronomia,veo anime, observar mi entorno, veo documentales -de ves en cuando, aprendes mucho solo observando-,
