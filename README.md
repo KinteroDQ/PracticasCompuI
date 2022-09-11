@@ -10,6 +10,8 @@ Es una tarea para explorar la plataforma y la sintaxisde ella.
   #### yo más te adoro
   
   https://www.youtube.com/watch?v=9iNfbAco7gw&list=RD9iNfbAco7gw&index=1
+  o 
+  https://www.youtube.com/watch?v=dQw4w9WgXcQ
   
   ## Cosas sobre mi 
   Tambien soy alguien auto proclamado Bohemio y un apasionado de la cutura geek, gastronomia,veo anime, observar mi entorno, veo documentales -de ves en cuando, aprendes mucho solo observando-,
