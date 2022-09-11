@@ -12,7 +12,7 @@ Es una tarea para explorar la plataforma y la sintaxisde ella.
   https://www.youtube.com/watch?v=9iNfbAco7gw&list=RD9iNfbAco7gw&index=1
   
   ## Cosas sobre mi 
-  Tambien soy alguien auto proclamado Bohemio y un apasionado de la cutura geek, gastronomia, observar documentales -de ves en cuando, aprendes mucho solo observando-,
+  Tambien soy alguien auto proclamado Bohemio y un apasionado de la cutura geek, gastronomia,veo anime, observar mi entorno, veo documentales -de ves en cuando, aprendes mucho solo observando-,
   ciencia ficcion y temas de interes actuales como los tokens, robotica y realidad aumentada. 
   Mis animales favoritos son los ajolotes, zorros, lobos, arañas y liebres. 
   
