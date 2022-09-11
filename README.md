@@ -15,14 +15,10 @@ Es una tarea para explorar la plataforma y la sintaxisde ella.
   
   ###  Perdona Si Te Llamo Amor - Maldita Nerea
   
-  #### Tú dirás lo que tú quieras, pero ya me necesitas, tenlo claro. Aunque tú me digas no, yo seré sí, mis besos serán disparos. Pararé cuando me creas, tú no sabes cómo y cuánto te he esperado,
-A partir de ahora yo haré que tú me quieras aquí a tu lado.
-Ay, ay, ay,
-Ya está, se va encendiendo solo
-Es como un huracán dentro de ti que va encendiando todo.
-Ay, ay, ay,
-Ya está, te llega en un segundo se queda en mi,
-En ti, aquí y ahora, y que se acabe el mundo.
+  #### Tú dirás lo que tú quieras, pero ya me necesitas, tenlo claro. Aunque tú me digas no, yo seré sí, mis besos serán disparos. 
+  #### Pararé cuando me creas, tú no sabes cómo y cuánto te he esperado, a partir de ahora yo haré que tú me quieras aquí a tu lado.
+  #### Ay, ay, ay, Ya está, se va encendiendo solo Es como un huracán dentro de ti que va encendiando todo. ay, ay, ay, 
+  #### Ya está, te llega en un segundo se queda en mi, en ti, aquí y ahora, y que se acabe el mundo.
   
   
   
