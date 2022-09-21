@@ -6,14 +6,24 @@ Dr. Ulises Olivares Pinto
 
 #### ° Profesor Invitado
 Lic. Walter André Rosales Reyes
+Lunes de 10:00 a 12:00
+Miércoles de 10:00 a 11:00 
+Viernes de 10:00 a 12:00 
+
    ## Termodinamica 
 #### ° Profesor
 ANDRES DE LUNA BUGALLO
+Lunes de 14:00 a 16:00 
+Miércoles de 14:00 a 16:00 
+Viernes de 14:00 a 16:00 
    
    ## Bioquimica
 #### ° Profesoras 
 MARIA OFELIA MORA IZAGUIRRE
 LUZ MARIA LOPEZ MARIN
+Martes de 08:00 a 10:00 
+Jueves de 08:00 a 10:00 
+Viernes de 12:00 a 14:00 
 
   ## Daniel Q.J
   soy alguien espontaneo, creativo y muy reflaxivo. Dos de mis cansiones preferiadas es:
