@@ -7,7 +7,7 @@ Es una tarea para explorar la plataforma y la sintaxisde de ella.
 
 #### ° Profesor Invitado
 
-#######  Lic. Walter André Rosales Reyes
+#####  Lic. Walter André Rosales Reyes
 
 #### Horario 
 Lunes de 10:00 a 12:00
@@ -17,7 +17,7 @@ Viernes de 10:00 a 12:00
    ## Termodinamica 
 #### ° Profesor
 
-#######  ANDRES DE LUNA BUGALLO
+#####  ANDRES DE LUNA BUGALLO
 
 #### Horario 
 Lunes de 14:00 a 16:00 
@@ -26,8 +26,8 @@ Viernes de 14:00 a 16:00
    
    ## Bioquimica
 #### ° Profesoras 
-####### MARIA OFELIA MORA IZAGUIRRE
-####### LUZ MARIA LOPEZ MARIN
+##### MARIA OFELIA MORA IZAGUIRRE
+##### LUZ MARIA LOPEZ MARIN
 
 #### Horario 
 Martes de 08:00 a 10:00 
