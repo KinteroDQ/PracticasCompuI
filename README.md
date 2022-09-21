@@ -6,6 +6,8 @@ Dr. Ulises Olivares Pinto
 
 #### ° Profesor Invitado
 Lic. Walter André Rosales Reyes
+
+#### Horario 
 Lunes de 10:00 a 12:00
 Miércoles de 10:00 a 11:00 
 Viernes de 10:00 a 12:00 
@@ -13,6 +15,8 @@ Viernes de 10:00 a 12:00
    ## Termodinamica 
 #### ° Profesor
 ANDRES DE LUNA BUGALLO
+
+#### Horario 
 Lunes de 14:00 a 16:00 
 Miércoles de 14:00 a 16:00 
 Viernes de 14:00 a 16:00 
@@ -21,6 +25,8 @@ Viernes de 14:00 a 16:00
 #### ° Profesoras 
 MARIA OFELIA MORA IZAGUIRRE
 LUZ MARIA LOPEZ MARIN
+
+#### Horario 
 Martes de 08:00 a 10:00 
 Jueves de 08:00 a 10:00 
 Viernes de 12:00 a 14:00 
