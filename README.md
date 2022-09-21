@@ -1,10 +1,10 @@
 # PracticasCompuI
 Es una tarea para explorar la plataforma y la sintaxisde de ella. 
   ## Materia Computacion 1 
-° Profesor
+####° Profesor
 Dr. Ulises Olivares Pinto
 
-° Profesor Invitado
+####° Profesor Invitado
 Lic. Walter André Rosales Reyes
 
 
