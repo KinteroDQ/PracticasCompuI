@@ -1,5 +1,12 @@
 # Precentacion-
 Es una tarea para explorar la plataforma y la sintaxisde de ella. 
+  ## Materia Computacion 1 
+° Profesor
+Dr. Ulises Olivares Pinto
+
+° Profesor Invitado
+Lic. Walter André Rosales Reyes
+
 
   ## Daniel Q.J
   soy alguien espontaneo, creativo y muy reflaxivo. Dos de mis cansiones preferiadas es:
