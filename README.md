@@ -6,7 +6,14 @@ Dr. Ulises Olivares Pinto
 
 #### ° Profesor Invitado
 Lic. Walter André Rosales Reyes
-
+   ## Termodinamica 
+#### ° Profesor
+ANDRES DE LUNA BUGALLO
+   
+   ## Bioquimica
+#### ° Profesoras 
+MARIA OFELIA MORA IZAGUIRRE
+LUZ MARIA LOPEZ MARIN
 
   ## Daniel Q.J
   soy alguien espontaneo, creativo y muy reflaxivo. Dos de mis cansiones preferiadas es:
