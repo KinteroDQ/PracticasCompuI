@@ -5,63 +5,57 @@ using namespace std;
 
 int main() {
 
-    int a, b, resultado, op;// estas son las variables a ocupar
-    float resultadoDivicion,resultadoMultipocasion1 , resultadoMultipocasion2 ;
+    int a=0, b=0, resultado; // estas son las variables tipo int a ocupar
+    char op='+';             // estas son las variables tipo char a ocupar
 
 
-    printf( " $ ./ Calculadora ");
-    printf( " Este programa hace operaciones basicas entre dos numeros.");
-    printf( " Primer numero: 5 ");
-    printf( " Operacion: 1. + suma 2. - resta  3. * multiplicasion  4. / division 5. modulo  ");
-    printf( " Segundo numero: 8 ");
-    printf(" QUE OPERACION VAS A REALIZAR ");
+    cout << "Introdusca el numero deseado " << endl; //ImprimimosElValorFactorial
 
-    scanf("%d", &op);
-    switch (op)
+    cout << "Valor: "; //ImprimimosElValorPedido
+    cin >> a;//PedirUnNumero
+    cout<< endl;
+    cout << "operacion: "; //ImprimimosElValorPedido
+    cin >> op; //PedirUnNumero
+    cout<< endl;
+
+    while (op != '+' && op != '-' && op != '*' && op != '/' && op != '%')
     {
-        case 1:
-            printf("Ingrese el numero");
-            scanf("%d", &a);
-            printf("Ingrese el numero");
-            scanf("%d", &b);
+
+        cout << "operacion: ";
+        cin >> op;
+    }
+
+
+    cout << "Valor: " ; //ImprimimosElValorPedido
+    cin >> b;//PedirUnNumero
+
+
+
+    float resultadoDivicion,resultadoMultipocasion1;
+
+    switch(op)
+    {
+
+        case '+':
             resultado=a+b;
             printf( " el resultado es=%d ", resultado);
             break;
 
-        case 2:
-            printf("Ingrese el numero");
-            scanf("%d", &a);
-            printf("Ingrese el numero");
-            scanf("%d", &b);
+        case '-':
 
             resultado=a - b;
             printf( " el resultado es=%d ", resultado);
             break;
 
-        case 3:
-            printf("Ingrese el numero");
-            scanf("%d", &a);
-            printf("Ingrese el numero");
-            scanf("%d", &b);
-            resultadoMultipocasion1=a * b;
-            resultadoMultipocasion2=a * b;
-            printf( " \" el resultado es=%d \" ", resultado);
+        case '*':
 
-            float resultadoMultipocasion1 ( float (a), float (b) );
-            if (a = 0) ;
-            else printf( "ES CERO LA OPERACION" );
+            resultadoMultipocasion1=  float (a) * float (b);
 
-            float resultadoMultipocasion2( float (a), float (b) );
-            if (b = 0) ;
-            else printf( "ES CERO LA OPERACION" );
+            printf( " el resultado es=%f ", resultadoMultipocasion1);
             break;
 
-        case 4:
-            printf("Ingrese el numero");
-            scanf("%d", &a);
-            printf("Ingrese el numero");
+        case '/':
 
-            scanf("%d", &b);
             resultadoDivicion=float(a) /float(b);
             printf( " el resultado es=%f ", resultadoDivicion);
             float resultadoDivicion ( float (a), float (b) );
@@ -69,19 +63,13 @@ int main() {
             else printf( "NO ES POSIBLE LA OPERACION" );
             break;
 
-
-        case 5:
-            printf("Ingrese el numero");
-            scanf("%d", &a);
-            printf("Ingrese el numero");
-            scanf("%d", &b);
+        case '%':
 
             resultado=a % b;
             printf( " el resultado es=%d ", resultado);
             break;
     }
     printf(" \n\n");
-
 
     return 0;
 }
