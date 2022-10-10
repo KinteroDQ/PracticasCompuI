@@ -56,11 +56,12 @@ int main() {
 
         case '/':
 
+            if (b!= 0) ;
+            else printf( "NO ES POSIBLE LA OPERACION" );
             resultadoDivicion=float(a) /float(b);
             printf( " el resultado es=%f ", resultadoDivicion);
             float resultadoDivicion ( float (a), float (b) );
-            if (b!= 0) ;
-            else printf( "NO ES POSIBLE LA OPERACION" );
+
             break;
 
         case '%':
