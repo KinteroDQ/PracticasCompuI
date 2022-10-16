@@ -8,10 +8,10 @@ int main() {
     int a=0, b=0, resultado; // estas son las variables tipo int a ocupar
     char op='+';             // estas son las variables tipo char a ocupar
 
+    cout << "Este programa hace operaciones basicas entre dos numeros." << endl;
 
-    cout << "Introdusca el numero deseado " << endl; //ImprimimosElValorFactorial
 
-    cout << "Valor: "; //ImprimimosElValorPedido
+    cout << "Primer numero: "; //ImprimimosElValorPedido
     cin >> a;//PedirUnNumero
     cout<< endl;
     cout << "operacion: "; //ImprimimosElValorPedido
@@ -26,7 +26,7 @@ int main() {
     }
 
 
-    cout << "Valor: " ; //ImprimimosElValorPedido
+    cout << "Segundo numero: " ; //ImprimimosElValorPedido
     cin >> b;//PedirUnNumero
 
 
@@ -38,20 +38,20 @@ int main() {
 
         case '+':
             resultado=a+b;
-            printf( " el resultado es=%d ", resultado);
+            printf( " Resultado =%d ", resultado);
             break;
 
         case '-':
 
             resultado=a - b;
-            printf( " el resultado es=%d ", resultado);
+            printf( " Resultado =%d ", resultado);
             break;
 
         case '*':
 
             resultadoMultipocasion1=  float (a) * float (b);
 
-            printf( " el resultado es=%f ", resultadoMultipocasion1);
+            printf( " Resultado =%f ", resultadoMultipocasion1);
             break;
 
         case '/':
@@ -59,7 +59,7 @@ int main() {
             if (b!= 0) ;
             else printf( "NO ES POSIBLE LA OPERACION" );
             resultadoDivicion=float(a) /float(b);
-            printf( " el resultado es=%f ", resultadoDivicion);
+            printf( "  Resultado =%f ", resultadoDivicion);
             float resultadoDivicion ( float (a), float (b) );
 
             break;
@@ -67,10 +67,9 @@ int main() {
         case '%':
 
             resultado=a % b;
-            printf( " el resultado es=%d ", resultado);
+            printf( " Resultado =%d ", resultado);
             break;
     }
     printf(" \n\n");
 
     return 0;
-}
