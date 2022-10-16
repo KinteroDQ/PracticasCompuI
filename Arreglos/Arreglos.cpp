@@ -18,7 +18,7 @@ int main()
     char decision;
     array<float, LEN> arr = { 0 }; // Inicializamos el arreglo con ceros como buena práctica
     arr = LlenarArreglo(); // Solicitamos al usuario que llene un arreglo y lo asignamos a nuestro arreglo principal
-    ImprimirArreglo(arr);
+    
     cout << "Operación : ";
     cin >> decision;
     // Si la operación no es '+' de suma, o '*' de multiplicación, seguimos preguntando al usuario.
@@ -40,8 +40,9 @@ int main()
         arr2 = LlenarArreglo(); // Pedimos al usuario que llene otro arreglo y lo asignamos a nuetsro nuevo arreglo
         arr = SumarArreglos(arr, arr2); // Sumamos ambos arreglos elemento a elemento, y reasignamos el resutlado a nuestro arreglo principal
     }
-    cout << "Resultado: "<<endl;
+    cout << "Resultado: ";
     ImprimirArreglo(arr); // Imprimimos el resultado de la operación sobre el arreglo principal
+    
     return 0; // Indicamos que salimos del programa con éxito
 }
 
@@ -50,7 +51,7 @@ void ImprimirArreglo(array<float, LEN> arreglo)
 {
     for (int i = 0; i < LEN; i++){
         cout << arreglo[i] << ' ';
-        cout << '\n';
+        
     }
 
 }
@@ -58,7 +59,7 @@ void ImprimirArreglo(array<float, LEN> arreglo)
 // Llena un arreglo de tamaño LEN y lo "regresa" como resultado
 array<float, LEN> LlenarArreglo()
 {
-    cout << "ingresa el arreglo de 3 numeros"<<endl;
+    
 
     array<float, LEN> arregloTemporal ={0};//llenar areglo
 
