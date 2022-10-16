@@ -19,18 +19,18 @@ int main()
     array<float, LEN> arr = { 0 }; // Inicializamos el arreglo con ceros como buena práctica
     arr = LlenarArreglo(); // Solicitamos al usuario que llene un arreglo y lo asignamos a nuestro arreglo principal
     ImprimirArreglo(arr);
-    cout << "Operación: ";
+    cout << "Operación : ";
     cin >> decision;
     // Si la operación no es '+' de suma, o '*' de multiplicación, seguimos preguntando al usuario.
     while (decision != '+' && decision != '*')
     {
-        cout << "Operación: ";
+        cout << "Operación : ";
         cin >> decision;
     }
     // Si se ingresa la multiplicación
     if (decision == '*') {
         float factor;
-        cout << "Factor: ";
+        cout << "Factor : ";
         cin >> factor;  // Pedimos el factor a multiplicar
         arr = MultiplicarArreglo(arr, factor); // Multiplicamos nuestro arreglo principal por el factor y el resultado lo asignamos a nuestro arreglo principal.
     }
@@ -58,18 +58,14 @@ void ImprimirArreglo(array<float, LEN> arreglo)
 // Llena un arreglo de tamaño LEN y lo "regresa" como resultado
 array<float, LEN> LlenarArreglo()
 {
-    cout << "ingresa 3 valores"<<endl;
+    cout << "ingresa el arreglo de 3 numeros"<<endl;
 
     array<float, LEN> arregloTemporal ={0};//llenar areglo
 
     for ( int i=0; i<LEN;i++ ){
-        cout << " valor:";
+        cout << "Valor elemento [" << i << "]:" ;
         cin  >> arregloTemporal [i];
     }
-
-    cout << " este es el valor guardado es  "<<endl;
-
-
     return arregloTemporal;
 }
 
