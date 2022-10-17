@@ -25,25 +25,17 @@ int main()
     const int variables = 3;
     // El número de columnas será el número de variables más su solición para cada ecuación
     const int columnas = variables + 1;
-
     // Inicializamos la matriz que vamos a ocupar
     array <array<float, columnas>, variables> miMatriz = { 0 };
-
     // Pedimos al usuario que llene la matriz
-
     LlenarMatriz(miMatriz);
-
     // Aplicamos el método de Gauss-Jordan sobre nuestra matriz
     GaussJordan(miMatriz);
-     
     
     // Imprimimos la solución de la matriz
     ImprimirSolucion(miMatriz);
-
-
     return 0; // Indicamos que salimos del programa con éxito
 }
-
 /*
 Llena 'miMatriz' con valores ingresados por el usuario para cada elemento.
 No regresa ningún valor.
@@ -56,10 +48,10 @@ void LlenarMatriz(matriz & miMatriz)
         for (int j = 0; j <= variables; j++) {
             cout << "Valor elemento [" << i << "][" << j << "]: ";
             cin >> miMatriz[i][j];
+
         }
     }
 }
-
 /*
 Imprime cada elemento de 'miMatriz' emulando una matriz con corchetes cuadrados.
 No regresa ningún valor.
@@ -75,7 +67,6 @@ void ImprimirMatriz(matriz & miMatriz)
         cout << "]\n";
     }
 }
-
 /*
 Imprime en pantalla la solución para cada variable del sistema de ecuaciones correspondiente a los valores en 'miMatriz'.
 No regresa ningún valor.
@@ -83,25 +74,45 @@ No regresa ningún valor.
 template <typename matriz>
 void ImprimirSolucion(matriz & miMatriz)
 {
-    //TODO
-
     cout << "Solución:"<<endl ;
     int variables = miMatriz.size();
+    int contadorDeCeros = 0;
+    int solucion = 1;
     
+     for (int k = 0; k < variables; k++){
+       for(int i = 0; i < variables ; i++ ){
+           if(miMatriz[k][i] == 0){
+               contadorDeCeros = contadorDeCeros + 1;
+               
+               //cout << "no existe solucion "<<endl ;
+           }
+           
+        
+       }
+       ///cout << contadorDeCeros<<endl ;
+       if(contadorDeCeros == variables){
+           cout << "No existe solución "<<endl ;
+           
+           solucion = 0 ;
+       }
+       contadorDeCeros = 0;
+       
+    }
     
-    for (int k = 0; k < variables; k++){
 
+    if(solucion == 1){
+      for (int k = 0; k < variables; k++){
         cout << "X" << k << "= " ;
         miMatriz[k][variables] = miMatriz[k][variables] / miMatriz[k][k] ;
         cout << miMatriz[k][variables] << "\n" ;
         miMatriz[k][k] = 1;
+       }  
     }
-
-
+    
+   
 
 
 }
-
 /*
 Implementa el algoritmo de Gauss-Jordan sobre 'miMatriz', finalizando en ella la solución del algoritmo.
 No regresa ningún valor.
@@ -112,50 +123,26 @@ void GaussJordan(matriz & miMatriz)
     int variables = miMatriz.size();
     float z = 0;
     cout << "\n";
-
     for (int k = 0; k < variables-1; k++) {
         for (int i = k+1; i < variables; i++) {
-            //cout << "[ ";
-            //cout << miMatriz[i][k] /miMatriz[k][k] << '\t';
             z = miMatriz[i][k] /miMatriz[k][k];
             miMatriz[i][k] = 0 ;
             for (int j = k+1; j < variables + 1; j++){
-                //cout << miMatriz[i][j] /miMatriz[i][j] << '\t';
-
                 miMatriz[i][j] = miMatriz[i][j] - (z*miMatriz[k][j])  ;
-
             }
-
-
-
         }
     }
-
-
-    z = 0;
-
-    for (int k =  variables-1; k > -1; k--) {
-        for (int i = k-1 ; i > -1; i--) {
-            //cout << "[ ";
-            //cout << miMatriz[i][k] << '('<<i<<k<< ')' << '\t';
-            z = miMatriz[i][k] /miMatriz[k][k];
-            miMatriz[i][k] = 0 ;
-            for (int j = k+1; j < variables + 1; j++){
-                //cout << miMatriz[i][j] /miMatriz[i][j] << '\t';
-
-                miMatriz[i][j] = miMatriz[i][j] - (z*miMatriz[k][j])  ;
-
-            }
-
-
-
-            //cout << "]\n";
-        }
-    }
-
-
     
+   
+    z = 0;
+    for (int k =  variables-1; k > -1; k--) {
 
-
-
+        for (int i = k-1 ; i > -1; i--) {
+            z = miMatriz[i][k] /miMatriz[k][k];
+            miMatriz[i][k] = 0 ;
+            for (int j = k+1; j < variables + 1; j++){
+                miMatriz[i][j] = miMatriz[i][j] - (z*miMatriz[k][j])  ;
+            }
+        }
+    }
 }
