@@ -29,26 +29,30 @@ int main() {
     {
         case '+':
             resultado= a+b;
-            printf( " Resultado =%d ", resultado);
+            printf( " Resultado %f ", resultado);
             break;
         case '-':
             resultado= a-b;
-            printf( " Resultado =%d ", resultado);
+            printf( " Resultado %f ", resultado);
             break;
         case '*':
             resultadoMultipocasion1=  a*b;
-            printf( " Resultado =%f ", resultadoMultipocasion1);
+            printf( " Resultado %f ", resultadoMultipocasion1);
             break;
         case '/':
-            if (b!= 0) ;
-            else printf( "NO ES POSIBLE LA OPERACION" );
-            resultadoDivicion=a / b;
-            printf( "  Resultado =%f ", resultadoDivicion);
+            if (b!= 0){
+                resultadoDivicion=a / b;
+                printf( "  Resultado %f ", resultadoDivicion);
+                break;
+            }
+            printf( "NO ES POSIBLE LA OPERACION" );
+            break;
+
 
             break;
         case '%':
             resultado =int (a) % int (b);
-            printf( " Resultado =%d ", resultado);
+            printf( " Resultado %f ", resultado);
             break;
     }
     printf(" \n\n");
