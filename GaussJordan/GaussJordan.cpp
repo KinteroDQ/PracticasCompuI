@@ -29,11 +29,8 @@ int main()
     array <array<float, columnas>, variables> miMatriz = { 0 };
     // Pedimos al usuario que llene la matriz
     LlenarMatriz(miMatriz);
-
-
     // Aplicamos el método de Gauss-Jordan sobre nuestra matriz
     GaussJordan(miMatriz);
-
     // Imprimimos la solución de la matriz
     ImprimirSolucion(miMatriz);
     return 0; // Indicamos que salimos del programa con éxito
@@ -78,42 +75,12 @@ void ImprimirSolucion(matriz & miMatriz)
 {
     cout << "Solución:"<<endl ;
     int variables = miMatriz.size();
-    int contadorDeCeros = 0;
-    int solucion = 1;
-
     for (int k = 0; k < variables; k++){
-        for(int i = 0; i < variables ; i++ ){
-            if(miMatriz[k][i] == 0){
-                contadorDeCeros = contadorDeCeros + 1;
-
-                //cout << "no existe solucion "<<endl ;
-            }
-
-
-        }
-        ///cout << contadorDeCeros<<endl ;
-        if(contadorDeCeros == variables){
-            cout << "No existe solución "<<endl ;
-
-            solucion = 0 ;
-        }
-        contadorDeCeros = 0;
-
+        cout << "X" << k << "= " ;
+        miMatriz[k][variables] = miMatriz[k][variables] / miMatriz[k][k] ;
+        cout << miMatriz[k][variables] << "\n" ;
+        miMatriz[k][k] = 1;
     }
-
-
-    if(solucion == 1){
-        for (int k = 0; k < variables; k++){
-            cout << "X" << k << "= " ;
-
-            cout << miMatriz[k][variables] << "\n" ;
-
-        }
-    }
-
-
-
-
 }
 /*
 Implementa el algoritmo de Gauss-Jordan sobre 'miMatriz', finalizando en ella la solución del algoritmo.
@@ -123,30 +90,6 @@ template <typename matriz>
 void GaussJordan(matriz & miMatriz)
 {
     int variables = miMatriz.size();
-    int valorTemporal = 0;
-
-
-    for(int l = 0; l < variables ; l++ ){
-        for(int k = 0; k < variables ; k++ ){
-            if (miMatriz[k][l] != 0){
-                for(int i = 0; i < variables +1 ; i++ ){
-                    //cout << miMatriz[k][i] ;
-                    valorTemporal = miMatriz[l][i];
-                    miMatriz[l][i] = miMatriz[k][i];
-                    miMatriz[k][i] = valorTemporal;
-                }
-            }
-        }
-
-    }
-
-    //cout << endl ;
-    //ImprimirMatriz(miMatriz); // matriz para ver el reordenamiento
-
-
-
-
-
     float z = 0;
     cout << "\n";
     for (int k = 0; k < variables-1; k++) {
@@ -158,27 +101,22 @@ void GaussJordan(matriz & miMatriz)
             }
         }
     }
-
-
     z = 0;
-    for (int k =  variables-1; k > -1; k--) {
+    for (int k = 0; k < variables-1; k++) {
 
         for (int i = k-1 ; i > -1; i--) {
             z = miMatriz[i][k] /miMatriz[k][k];
             miMatriz[i][k] = 0 ;
             for (int j = k+1; j < variables + 1; j++){
                 miMatriz[i][j] = miMatriz[i][j] - (z*miMatriz[k][j])  ;
+
+                for (int k = 0; k < variables; k++){
+                     if(miMatriz[k][k] == 0 && miMatriz[k][variables] == 0)
+                            cout << "solucion infinita "<<endl;
+                    if(miMatriz[k][k] != 0 && miMatriz[k][variables]==0)
+                            cout << "no existe solucion  "<<endl;
+                }
             }
         }
     }
-
-
-    for (int k = 0; k < variables; k++){
-
-        miMatriz[k][variables] = miMatriz[k][variables] / miMatriz[k][k] ;
-        miMatriz[k][k] = 1;
-    }
-
-
-
 }
