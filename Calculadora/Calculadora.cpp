@@ -29,20 +29,24 @@ int main() {
     {
         case '+':
             resultado= a+b;
-            printf( " Resultado %f ", resultado);
+            cout << "resultado:""\n" ;
+            cout << a << "+" <<b<< "=" <<resultado;
             break;
         case '-':
             resultado= a-b;
-            printf( " Resultado %f ", resultado);
+            cout << "resultado:""\n" ;
+            cout << a << "-" <<b<< "=" <<resultado;
             break;
         case '*':
             resultadoMultipocasion1=  a*b;
-            printf( " Resultado %f ", resultadoMultipocasion1);
+            cout << "resultado:""\n" ;
+            cout << a << "*" <<b<< "=" <<resultadoMultipocasion1;
             break;
         case '/':
             if (b!= 0){
                 resultadoDivicion=a / b;
-                printf( "  Resultado %f ", resultadoDivicion);
+                cout << "resultado:""\n" ;
+                cout << a << "/" <<b<< "=" <<resultadoDivicion;
                 break;
             }
             printf( "NO ES POSIBLE LA OPERACION" );
@@ -52,7 +56,8 @@ int main() {
             break;
         case '%':
             resultado =int (a) % int (b);
-            printf( " Resultado %f ", resultado);
+         cout << "resultado:""\n" ;
+         cout << a << "%" <<b<< "=" <<resultado;
             break;
     }
     printf(" \n\n");
